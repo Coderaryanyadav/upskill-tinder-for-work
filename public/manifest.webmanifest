@@ -1,0 +1,87 @@
+{
+  "name": "Tinder for Work",
+  "short_name": "T4W",
+  "description": "Find your next career match with Tinder for Work",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ff4b4b",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "monochrome"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/home.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Tinder for Work Home Screen"
+    },
+    {
+      "src": "/screenshots/matches.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "View Your Matches"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Jobs",
+      "short_name": "Jobs",
+      "description": "Browse available job opportunities",
+      "url": "/jobs",
+      "icons": [{ "src": "/icons/briefcase-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "My Profile",
+      "short_name": "Profile",
+      "description": "View and edit your profile",
+      "url": "/profile",
+      "icons": [{ "src": "/icons/user-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Messages",
+      "short_name": "Chat",
+      "description": "View your messages",
+      "url": "/messages",
+      "icons": [{ "src": "/icons/message-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "categories": ["business", "jobs", "career", "networking"],
+  "dir": "ltr",
+  "lang": "en-US",
+  "orientation": "portrait",
+  "prefer_related_applications": false,
+  "scope": "/",
+  "serviceworker": {
+    "src": "/sw.js",
+    "scope": "/",
+    "type": "",
+    "update_via_cache": "none"
+  },
+  "related_applications": [
+    {
+      "platform": "webapp",
+      "url": "https://yourapp.com/manifest.json"
+    }
+  ]
+}

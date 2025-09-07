@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build files
+build/
+dist/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test files
+**/__tests__/
+**/*.test.*
+**/*.spec.*
+
+# Misc
+.DS_Store
+*.pem
+
+# Local development
+.vscode/*
+!.vscode/extensions.json
+.idea
+
+# Firebase
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+
+# Build tools
+fix-imports.js
